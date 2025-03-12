@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Voice Notes</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <button id="theme-toggle" aria-label="Toggle Theme">
+
+            <span class="icon">☀️</span>
+
+        </button>
+
+    </header>
+
+    <main class="container">
+
+        <h1>Voice Notes</h1>
+
+        <p>Record voice notes with your microphone. Start, stop, play, and download your recordings!</p>
+
+        
+
+        <div class="voice-notes">
+
+            <div class="controls">
+
+                <button id="start-recording" class="record-btn">Start Recording</button>
+
+                <button id="stop-recording" class="record-btn" disabled>Stop Recording</button>
+
+                <button id="play-recording" class="play-btn" disabled>Play</button>
+
+            </div>
+
+            <div class="status">
+
+                <span id="recording-status">Not recording</span>
+
+            </div>
+
+            <div class="download">
+
+                <a id="download-link" href="#" download="voice-note.webm" style="display: none;">Download Recording</a>
+
+            </div>
+
+        </div>
+
+        
+
+        <p>Want to see the code? Check it out on GitHub: <a href="https://github.com/example/voice-notes" target="_blank">https://github.com/example/voice-notes</a></p>
+
+        <p class="note">Note: Replace the link above with your own GitHub repository URL in the HTML file (search for "https://github.com/example/voice-notes").</p>
+
+    </main>
+
+    
+
+    <footer class="footer">
+
+        <div class="social">
+
+            <img src="https://cdn3d.iconscout.com/3d/free/thumb/free-twitter-x-3d-icon-download-in-png-blend-fbx-gltf-file-formats--logo-network-social-media-pack-logos-icons-8050016.png?f=webp" alt="Twitter Icon" class="twitter-icon">
+
+            <div>
+
+                <a href="https://twitter.com/HotDog850642" target="_blank">@HotDog850642</a>
+
+                <p>I'm a code developer. Feel free to reach out!</p>
+
+            </div>
+
+        </div>
+
+        <div class="donation">
+
+            <h3>For voluntary donations</h3>
+
+            <div class="btc-address">
+
+                <span id="btc-code">bc1q3r5gad7dxc276ael06n02gek7ncm536hpndgmq</span>
+
+                <button class="copy-btn" data-target="btc-code">Copy</button>
+
+            </div>
+
+            <p class="thanks">Thank you for your support!</p>
+
+        </div>
+
+    </footer>
+
+    
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
